@@ -3989,6 +3989,10 @@ GameObject:
   - component: {fileID: 7818425769008009533}
   - component: {fileID: 7818425769015637501}
   - component: {fileID: 7818425769585808650}
+  - component: {fileID: 1333362647619766486}
+  - component: {fileID: -2217762068318215768}
+  - component: {fileID: 2070752934}
+  - component: {fileID: 7921954203249932596}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -4060,7 +4064,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: d7ff2687a5152784496920a366fcc30e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -4079,6 +4083,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &1333362647619766486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818425769008262349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd4cede2581b7840b264a06014ee00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-2217762068318215768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818425769008262349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1829859, y: 0.19397035, z: 0.276066}
+  m_Center: {x: 0.0105032325, y: 0.10166281, z: 0.032309048}
+--- !u!114 &2070752934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818425769008262349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd4cede2581b7840b264a06014ee00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7921954203249932596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818425769008262349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b89575abe56e74db11cb2422703a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7818425769008263905
 GameObject:
   m_ObjectHideFlags: 0
